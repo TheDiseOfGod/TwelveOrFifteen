@@ -1,1 +1,100 @@
-
+html{
+	padding:0;
+	margin:0;  
+	height: 100%;
+	font-family: "Microsoft YaHei";
+}
+body{
+	padding:0;
+	margin:0;  
+	height: 100%;
+}
+.left_first{
+	position: fixed;
+	height: 100%;
+	width: 100px;
+	text-align: center;
+	padding-top: 30px;
+	line-height: 50px;
+	background-color: #1d2531;
+}
+.icon1{
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+}
+.icon2{
+	position: absolute;
+	bottom: 40px;
+	left: 60px;
+}
+.left_second{
+	float: left;
+	height: 100%;
+	width: 350px;
+	background-color: #222c3c;
+}
+.list{
+	position: absolute;
+	width: 200px;
+	height: 100%;
+	left: 100px;
+	color: white;
+	opacity: 0.8;
+}
+.line{
+	position: relative;
+	left: 100px;
+	top: 850px;
+	left: 120px;
+}
+ul{
+	list-style-type:none;
+	line-height: 40px;
+}
+span{color: gray;}
+.main{
+	position: relative;
+	height: 100%;
+	overflow:hidden;
+	background-color:white;
+}
+.top{
+	font-size:32px;
+	padding-left: 70px;
+}
+.people{
+	position: fixed;
+	right: 200px;
+	top: 30px;
+}
+.name>span{
+	color: #2399f1;
+}
+.name{
+	position: absolute;
+	right: 80px;
+	top: 40px;
+	line-height: 5px;
+}
+.icon_top{
+	position: absolute;
+	right: -20px;
+	top: 10px;
+	line-height: 5px;
+}
+.main_left{
+	position: relative;
+	float: left;
+	margin: 0;
+	width: 400px;
+	height: 100%;
+	background-color: gray;
+}
+.main_right{
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	background: orange;
+}
